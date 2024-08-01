@@ -1,0 +1,25 @@
+Machine Learning: “Field of Study that gives computers the ability to learn without being explicitly programmed.” - Arthur Samuel (1959)
+
+Machine Learning algorithms
+ - Supervised Learning
+    - used most in real world applications
+    - course 1 and 2 
+ - Unsupervised Learning
+    - course 3
+    - Recommender systems
+    - Reinforcement learnings
+
+Supervised Learning Part 1
+    - learns from being given "right answers"
+    - email -> spam?   -----> Spam filtering
+    - audio -> text transcript ----> speech recognition
+    - english -> spanish -----> machine translation
+    - ad, user info -> click ----> online advertising
+    - image, rador info -> position of other cars ---> self-driving car
+    - image of phone -> defect? ---> visual inspection
+        
+    Regression learning
+        - Predict a number infinity many possible outputs
+
+    Classification learning
+        - Predict a number with limited amount of outputs or predict categories
