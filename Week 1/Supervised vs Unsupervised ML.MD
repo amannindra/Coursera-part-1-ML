@@ -88,3 +88,38 @@ Defintion: “Field of Study that gives computers the ability to learn without b
   ![image info](./images/Vis.png)
 - This example shows a almost perfect line of best fit for the training set. 
 - The point is close the center, and line relativly matched with the points around it.
+
+## Gradient Descent
+- The gradient descent algorithm helps find the small value of j of w, b
+- Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. (Defintion)
+  ![image info](./images/gradient_descent.png)
+-  In this example, the for every small step the the guy takes, he will look around is find the next small step. He will continue like this until he found the minimum value. If the person were to start in the different position, a position more close to the other minimum value, then the minimum value is the local minimum value.
+-  ![image info](./images/gradient_descent_explained.png)
+
+## Implementing gradient descent
+- The gradient descent formula in code is 
+- The goal of this algorithm is to repeat this algorithm until you have reached the point where the local minimum value "w" and "b" don't change much.
+- "a" is the learning rate(always positive)
+- 6/6w is the partial derivate
+  ![image info](./images/gradient_descent_math.png)
+
+## Gradient Descent algorithm
+- J(w) is the cost
+- The derivative d/dw(J(w)) measures the rate of change of the cost function with respect to w.
+- This derivate tells the slope of the cost function at any point in the w. Basically think of the tangent line. 
+- [Learn Tangent Line](https://www.youtube.com/watch?v=5NyeGzbBJQM).
+-  ![image info](./images/tangentsline.png)z
+  
+## Gradient Descent for linear regression
+- If you do the derivative of Gradient Descent algorithm you get the cost function formula.
+  ![image info](./images/summaryFormulas.png)
+- The gradient descent algorithm has many local minimums. Depending on where you 
+  intialize the parameters w and b you can end up in different locations.
+  ![image info](./images/differentLocalMinimum.png)
+- Squared error cost function has one global minimum.
+  ![image info](./images/squaredCost.png)
+
+
+## Running Gradient Descent
+- This is the base linear alebra line with no gradient descent formula
+  ![image info](./images/base.png)
